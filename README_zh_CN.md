@@ -13,7 +13,7 @@
 
 **此项目与[Bitwarden](https://bitwarden.com/)项目或8bit Solutions LLC没有关联。**
 
-#### ⚠️**重要提醒**⚠️：使用此服务器时，任何与Bitwarden相关的错误报告或建议在[此处](https://github.com/dani-garcia/bitwarden_rs/issues/new)报告，无论使用什么客户端 您正在使用（移动端，电脑端，浏览器...）。 请勿使用官方Github支持渠道。
+#### ⚠️**重要提醒**⚠️：使用此服务器时，任何与Bitwarden相关的错误报告或建议在[此处](https://github.com/BigTear/bitwarden_rs/issues/new)报告，无论使用什么客户端 您正在使用（移动端，电脑端，浏览器...）。 请勿使用官方Github支持渠道。
 ---
 
 ## 功能
@@ -43,14 +43,14 @@ docker run -d --name bitwarden -v /bw-data/:/data/ -p 80:80 bitwardenrs/server:l
 你可以使用 [bitwarden_rs directly](https://github.com/dani-garcia/bitwarden_rs/wiki/Enabling-HTTPS) 配置，或者使用第三方反向代理 ([例子](https://github.com/dani-garcia/bitwarden_rs/wiki/Proxy-examples))。
 
 
-如果你使用的是域名访问，你可以在 [Let's Encrypt](https://letsencrypt.org/)申请免费SSL证书，或者你也可以用软件生成自签证书，比如使用[mkcert](https://github.com/FiloSottile/mkcert)。 有些代理会自动执行这一步，比如 ([Caddy](https://github.com/dani-garcia/bitwarden_rs/wiki/Proxy-examples))。
+如果你使用的是域名访问，你可以在 [Let's Encrypt](https://letsencrypt.org/)申请免费SSL证书，或者你也可以用软件生成自签证书，比如使用[mkcert](https://github.com/FiloSottile/mkcert)。 有些代理会自动执行这一步，比如 ([Caddy](https://github.com/BigTear/bitwarden_rs/wiki/Proxy-examples))。
 
 ## 用法
-查看 [bitwarden_rs wiki](https://github.com/dani-garcia/bitwarden_rs/wiki) 了解如何配置和使用bitwarden_rs。
+查看 [bitwarden_rs wiki](https://github.com/BigTear/bitwarden_rs/wiki) 了解如何配置和使用bitwarden_rs。
 
 ## 联系我
 
-有问题，或者BUG，[提 Issue](https://github.com/dani-garcia/bitwarden_rs/issues/new)。
+有问题，或者BUG，[提 Issue](https://github.com/BigTear/bitwarden_rs/issues/new)。
 
 ### 感谢
 感谢你们对项目做出的贡献!
